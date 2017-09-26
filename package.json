@@ -1,13 +1,20 @@
 {
-  "name": "marked",
+  "name": "@wta/marked",
   "description": "A markdown parser built for speed",
   "author": "Christopher Jeffrey",
   "version": "0.3.6",
   "main": "./lib/marked.js",
-  "bin": "./bin/marked",
-  "man": "./man/marked.1",
+  "bin": {
+    "marked": "./bin/marked"
+  },
+  "man": [
+    "./man/marked.1"
+  ],
   "preferGlobal": true,
-  "repository": "git://github.com/willowtreeapps/marked.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/willowtreeapps/marked.git"
+  },
   "homepage": "https://github.com/willowtreeapps/marked",
   "bugs": {
     "url": "http://github.com/willowtreeapps/marked/issues",
@@ -34,5 +41,12 @@
   "scripts": {
     "test": "node test",
     "bench": "node test --bench"
-  }
+  },
+  "directories": {
+    "doc": "doc",
+    "lib": "lib",
+    "man": "man",
+    "test": "test"
+  },
+  "dependencies": {}
 }
