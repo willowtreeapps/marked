@@ -7,12 +7,23 @@
   "bin": "./bin/marked",
   "man": "./man/marked.1",
   "preferGlobal": true,
-  "repository": "git://github.com/chjj/marked.git",
-  "homepage": "https://github.com/chjj/marked",
-  "bugs": { "url": "http://github.com/chjj/marked/issues" },
+  "repository": "git://github.com/willowtreeapps/marked.git",
+  "homepage": "https://github.com/willowtreeapps/marked",
+  "bugs": {
+    "url": "http://github.com/willowtreeapps/marked/issues",
+    "email": "hunter.mcmillen@willowtreeapps.com"
+  },
   "license": "MIT",
-  "keywords": ["markdown", "markup", "html"],
-  "tags": ["markdown", "markup", "html"],
+  "keywords": [
+    "markdown",
+    "markup",
+    "html"
+  ],
+  "tags": [
+    "markdown",
+    "markup",
+    "html"
+  ],
   "devDependencies": {
     "markdown": "*",
     "showdown": "*",
@@ -20,5 +31,8 @@
     "gulp-uglify": "^1.1.0",
     "gulp-concat": "^2.5.2"
   },
-  "scripts": { "test": "node test", "bench": "node test --bench" }
+  "scripts": {
+    "test": "node test",
+    "bench": "node test --bench"
+  }
 }
